@@ -1,0 +1,1 @@
+Feladatgyűjtemény indítás.
