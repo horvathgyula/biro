@@ -1,0 +1,39 @@
+5
+gazda
+1092
+7
+2
+1 1 1 1 1 1 1
+1 1 1 1 1 1 1
+zaszlo
+1092
+9
+1
+1 1 1 2 2 2 2 2 2
+sakk
+1092
+5
+1
+3 3 3 3 3
+stafeta
+1092
+7
+2
+1 1 1 1 1 1 1
+1 1 1 1 1 1 2
+munka
+1092
+8
+2
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+
+
+
+1. sor: feladatok sz ma
+egy feladat adatai:
+1. sot: FeladatN‚v
+2. sor: Id‹limit
+3. sor: Tesztesetek sz ma
+4. sor: R‚szfeladatok sz ma
+5.-annyi sor, ah ny r‚szfeladat van, soronk‚nt a pontsz m/teszteset
