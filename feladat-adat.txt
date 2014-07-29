@@ -1,0 +1,36 @@
+Egy feladat összetevői
+1. A feladat leírása. Fájl: feladat.pdf (feladat.docx)
+2. A feladat adatai: feladat.txt
+<a feladat neve>;
+<Modul>;
+<tesztesetek száma>;<memórialimit KiB>;<időlimit másodpercben>;<részfeladatok száma>;
+p1;…;pt
+A modul neve NO, ha nincs modul (nem interaktív a feladat). A feladat neve több szó is lehet.
+például:
+      Labor;
+      NO;
+      10;32000;0.2;2;
+      1;1;1;1;1;1;1;1;1;1;
+      2;2;2;2;2;3;3;3;3;3;
+3. Teszt bemenmetek: in.1,…,in.t, ahol t a tesztesetek száma
+4. Teszt kimenmetek: out.1,…,out.t, ahol t a tesztesetek száma
+5. Egy kis, és egy nagyobb méretű minta bemenet: minta.zip-ben.
+6. Minta megoldás: feladat.cpp (feladat.pas)
+7. Ellenőrző program: ellen.cpp (vagy ellen.pas), egy teszteset kimenetének helyességét ellenőrzi
+Specifikáció:
+input:
+      parancssorban kapja a bemenetet, 3 string: TK VK Te
+	TK : a feladat adatait tartalmazó könyvtár (teljes úttal)
+	VK : az értékelendő program kimeneteit tartalmazó könyvtár (teljes úttal)
+	Te : a teszteset sorszáma
+	A teszteset bemenete: TK/in.Te, helyes kimenet: TK/out.Te, ellenőrzendő kimenet: VK/out.Te
+output: a standard outputra írja az alábbi formában egy sorban
+	<te>;<rf>;<pont>;<verdikt>
+		te: teszteset (inputként kapta)
+		rf: a részfeladat sorszáma, 1,2,…
+		pont : a kapott pont, általában 1 vagy 0, (helyes, hibás) 
+		verdikt: az értékelési üzenet (nem tartalmazhat ; és : karaktert)
+	több részfeladat esetén : karakter válassza el az egyes részfeladatokra adott kiírást.
+	Az értékelési üzenet „HELYES”, vagy „Hiba, …” a hibára utaló megjegyzéssel.
+	
+Szöveges állományok kódolása UTF-8.
